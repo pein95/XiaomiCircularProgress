@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0fa9c3"
+    tools:context="com.softlab.roundprogress.MainActivity">
+
+    <com.softlab.circleprogresslib.CircleProgress
+        android:id="@+id/test_progress"
+        android:layout_width="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        app:round_progress_main_radius="150dp"
+        app:round_progress_indicator_radius="5dp"
+        app:round_progress_indicator_color="#fffff6"
+        app:round_progres_main_color="#39bcd8"
+        app:round_progress_strocke_width="1dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start animation"
+        android:id="@+id/btn_start_animation"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop animation"
+        android:id="@+id/btn_stop_animation"/>
+
+</LinearLayout>
