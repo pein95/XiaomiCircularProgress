@@ -20,6 +20,8 @@ It supports few custom properties:
 * width of main circle line.
 
 ## How it looks
+![alt text](https://github.com/pein95/XiaomiCircularProgress/blob/master/example.gif "Logo Title Text 1")
+
 
 
 
